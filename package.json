@@ -1,0 +1,20 @@
+{
+  "name": "Examen1PNegociosWebMayra",
+  "version": "1.0.0",
+  "description": "Examen primer parcial para la clase negocios web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayraGuevara/Examen1PNegociosWebMayra.git"
+  },
+  "keywords": ["Amortizacion","nNode js"],
+  "author": "Mayra Guevara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayraGuevara/Examen1PNegociosWebMayra/issues"
+  },
+  "homepage": "https://github.com/MayraGuevara/Examen1PNegociosWebMayra#readme"
+}
