@@ -4,6 +4,8 @@ const morgan = require('morgan');
 // inicializar servidor
 const app = express();
 
+const router = require('./routes/index.route')
+
 // settings
 app.set("port",process.env.PORTSERVER || 3000)
 
@@ -11,6 +13,7 @@ app.set("port",process.env.PORTSERVER || 3000)
 app.use(morgan('dev'));
 
 //ruotes
+app.use("/",router())
 
 //Static files
 
